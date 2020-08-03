@@ -1,0 +1,80 @@
+body{margin: 0rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    visibility: hidden;}}
+.main{
+   background-color:  rgb(18, 80, 80);
+}
+.navbar{
+   background-color: rgb(18, 80, 80);
+}
+.navbar-brand{
+   color: white;
+   font-size: 30px;
+}
+.navbar-toggler-icon{
+   background-color: rgb(139, 80, 80);
+}
+.section-1{
+   background-color: rgb(32, 37, 37);
+   width: 100%;
+
+}
+.menu{
+   color: white;
+   text-align: center;
+   margin: 1rem;
+}
+.vc {border-left: 6px solid rgb(16, 97, 97);
+   border-radius: 1rem;
+   
+   margin-top: 1rem;
+   border-top-style: groove;
+   border-top-color:rgb(16, 97, 97) ;
+   border-bottom-style: groove;
+   border-bottom-color: rgb(16, 97, 97);
+   border-right: 6px solid rgb(16, 97, 97);
+  color:white ;
+background-color:rgb(18, 80, 80) ;}
+  .details{
+  margin-left: 50%;
+  font-weight: 800;
+  color: rgb(207, 228, 17);
+  }
+  .sub{
+   color: white;
+   margin-left: 1%;
+   
+  }
+  p{
+    padding: 1rem;
+  }
+  @media (max-width:767px){
+   .details{
+      margin-left: 45%;
+      font-weight: 800;
+      color: rgb(207, 228, 17);
+      }
+      .sub{
+         color: white;
+         margin-left: 1%;
+         font-size: small;
+        }
+          
+  }
+  .navbar-nav .nav-link {
+   padding-right: 0;
+   background-color: rgb(74, 74, 85);
+   color: darkgoldenrod;
+   border-left: 6px solid rgb(16, 97, 97);
+   border-radius: 1rem;
+   border-bottom:6px solid rgb(16, 97, 97);
+   
+   padding-left: 45%; } 
+   
+   
+  
